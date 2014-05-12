@@ -6,10 +6,10 @@ comments: yes
   
 ![](http://www.californiaindianeducation.org/science_lab/pics/space_photos/Andromeda_Galaxy.jpg)
 
-                      My name is Fatbean,I am a programmer.
 
-- 邮箱:  
-  + fatbean.li@gmail.com
+
+
+- 邮箱 : fatbean.li@gmail.com
 
 - github : [https://github.com/cortexiphan](https://github.com/cortexiphan)
 
