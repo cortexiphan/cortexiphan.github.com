@@ -1,2 +1,2 @@
-- My Blog based on ellochen.github.com and kejinlu.github.com
-Thanks for them.
+- My Blog based on [Ellochen's](ellochen.github.com) and [Luke's](kejinlu.github.com).Thanks for them.
+- My Blog is [cortexiphan.github.com](cortexiphan.github.com)
