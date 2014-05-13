@@ -1,7 +1,7 @@
 ---
 layout: page
-title: 留言
+title: Guest Book
 comments: yes
 ---
 
-使用评论留言哦！
+Leaving your messages as comments would be just fine.
