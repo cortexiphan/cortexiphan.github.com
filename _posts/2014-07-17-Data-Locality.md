@@ -5,7 +5,7 @@ tags: [Programming]
 ---
 
 # 内存数据位置（Data Locality） #
-这其实是《[Game Programming Patterns](http://gameprogrammingpatterns.com/)》中的一篇文章,它主要讲述了数据在内存中的布局是如何影响CPU缓存([CPU Caching]())，进而让程序性能产生巨大变化的。作者还没有写完，我就一直在关注这本书，这里面的大部分文章都值得一看，比如《Game Loop》，但这次先只翻译一篇。
+这其实是《[Game Programming Patterns](http://gameprogrammingpatterns.com/)》中的一篇文章,它主要讲述了数据在内存中的布局是如何影响CPU缓存([CPU Caching](http://en.wikipedia.org/wiki/CPU_cache))，进而让程序性能产生巨大变化的。作者还没有写完，我就一直在关注这本书，这里面的大部分文章都值得一看，比如《Game Loop》，但这次先只翻译一篇。
 
 Herb Sutter的演讲和Scott Meyer的演讲都提到了CPU缓存对性能提升的重要性，并且Herb还专门提到了《Data Locality》这篇文章，还用了这篇文章的数据作为论据，这促使我决定马上把它整理成中文了。
 
