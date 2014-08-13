@@ -242,4 +242,4 @@ Herb SutterµÄÑÝ½²ºÍScott MeyerµÄÑÝ½²¶¼Ìáµ½ÁËCPU»º´æ¶ÔÐÔÄÜÌáÉýµÄÖØÒªÐÔ£¬²¢ÇÒHerb»
 
 Õâ¸öÐÞ¸Ä²¢²»ÒâÎ¶×ÅÎÒÃÇÒ²ÐèÒª¶ªÆúÓÎÏ·ÊµÌåÕâ¸öÀà¡£ÎÒÃÇ¿ÉÒÔ¾ÍÏñÒÔÇ°ÄÇÑù±£ÁôÖ¸ÏòÆä×é¼þµÄÖ¸Õë£¬Ö»ÊÇËüÃÇÏÖÔÚ»áÖ¸ÏòÄÇÐ©Êý×é¶øÒÑ¡£ÕâÑù£¬µ±ÄãÏëÏòÓÎÏ·µÄÆäËûÄ£¿é´«µÝÓÎÏ·ÊµÌåÕâ¸ö¸ÅÄîÊ±£¬ËùÓÐµÄÄÚÈÝ¶¼»á¸ú¹ýÈ¥¡£ÖØÒªµÄÊÇ£¬Ó°ÏìÐÔÄÜµÄ¹Ø¼ü²¿·ÖÒÑ¾­Ö±½Ó·ÃÎÊµ½Êý¾ÝÁË¡£
 
-(Î´Íê´ýÐø£¬ÎÄÕÂÖÐµÄÍ¼Æ¬Á´½ÓÒ²ÊÇBob NystromµÄ)
+(Î´Íê´ýÐø£¬ÎÄÖÐµÄÍ¼Æ¬Á´½ÓÒ²ÊÇBob Nystrom¸öÈËÍøÕ¾ÉÏµÄ)
