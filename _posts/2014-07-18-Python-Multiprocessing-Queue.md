@@ -1,8 +1,8 @@
 ---
 
 layout: post
-categories: [Greet]
-tags: [Greet]
+categories: [Programming]
+tags: [Programming]
 
 ---
 
