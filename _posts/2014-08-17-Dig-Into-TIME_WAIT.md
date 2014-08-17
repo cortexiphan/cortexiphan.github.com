@@ -8,6 +8,8 @@ tags: [Programming]
 
 # TIME_WAIT状态小探 #
 
+这篇文章是对网上一些文章整理之后的总结，主要讨论TIME_WAIT状态的问题以及解决方法。
+
 ## TIME_WAIT状态以及它的作用 ##
 
 ![TCPstate](http://d1g3mdmxf8zbo9.cloudfront.net/images/tcp/tcp-state-diagram.png)
@@ -34,6 +36,8 @@ TIME_WAIT状态有两个作用：
 
 ## TIME_WAIT对系统性能的影响 ##
 
+TIME_WAIT对系统的影响主要有以下3个方面
+
 ### 导致系统无法新建一个与TIME_WAIT套接字相同4元组的连接 ###
 
 当然，这也是设置TIME_WAIT状态的目的。对于发起主动连接的客户端来说，不能建立这样的连接也不是什么大问题，因为默认情况下系统会为套接字选择一个可用端口，除非我们再connect之前执行了bind。需要注意的是，如果客户端需要频繁发起并主动关闭连接，这可能就会出现问题，太多的端口处于TIME_WAIT状态，导致系统可选择的端口耗尽，那也会无法建立新连接。
@@ -47,6 +51,8 @@ TIME_WAIT状态有两个作用：
 保存TCP连接结构需要消耗内存消耗，查询可用端口时也有CPU消耗。但这些消耗都很小，与数据处理的消耗相比，可以忽略。
 
 ## 解决TIME_WAIT问题的方法 ##
+
+
 
 ### 什么时候才需要TIME_WAIT的问题？ ###
 
@@ -88,5 +94,7 @@ tw_recycle比tw_reuse还要激进，tw_reuse只是在必要时（新旧连接具
 ## 引用 ##
 
 [1] [TIME_WAIT and its design implications for protocols and scalable client server systems](http://www.serverframework.com/asynchronousevents/2011/01/time-wait-and-its-design-implications-for-protocols-and-scalable-servers.html)
+
 [2] [Coping with the TCP TIME-WAIT state on busy Linux servers](http://vincent.bernat.im/en/blog/2014-tcp-time-wait-state-linux.html)
+
 [3] [Bind before connect](https://idea.popcount.org/2014-04-03-bind-before-connect/)
